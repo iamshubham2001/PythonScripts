@@ -32,3 +32,12 @@ int - integer (whole numbers)
 float - decimal numbers
 str - string (text)
 bool - boolean (True/False)
+
+--> interactive shell
+--> REPL = Read Evaluate Print Loop
+
+5. What is Function?
+Function - a block of code that performs a specific task and can be reused
+
+## Snake case in Python
+
