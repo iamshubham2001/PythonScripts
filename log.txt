@@ -1,0 +1,7 @@
+INFO Server started
+INFO Connection established
+ERROR Disk full
+INFO Running backup
+ERROR Timeout occurred
+WARNING High memory usage
+ERROR Failed to connect DB

@@ -32,3 +32,46 @@ type ("Hello")
 type (True)
 <class 'bool'>
 '''
+
+'''
+print(round (3.14159, 2)) # round() - to round a number to a specified number of decimal places
+print(abs (-5)) # abs() - to find the absolute value of a number
+print(max (1, 2, 3)) # max() - to find the maximum value among the given numbers
+print(min (1, 2, 3)) # min() - to find the minimum value among the given numbers
+'''
+
+
+'''
+# Variables are used to store data in a program. A variable is a name that refers to a value. The value can be of any data type such as int, float, str, bool, etc. Variables can be assigned values using the assignment operator (=).   
+
+name = "Shubham" # String variable
+cpu_usage = 75.5 # Float variable
+is_active = True # Boolean variable 
+disk_space = 50 # Integer variable
+
+# list is a collection of items which is ordered and changeable. It is defined using square brackets [] and items are separated by commas. A list can contain items of different data types.
+my_list = [1, 2, 3, "Hello", True] # List variable
+
+servers = ["server1", "server2", "server3"] # List variable
+for server in servers: # for loop to iterate through the list
+    print (f"Checking {server}...") # Using f-string to print the value of the variable in a string 
+    print (f"{server} is up and running!") # Using f-string to print the value of the variable in a string
+    print(server)
+'''
+
+'''
+# Dictionaries are used to store data in key-value pairs. A dictionary is defined using curly braces {} and each key is separated from its value by a colon (:). The items in a dictionary are separated by commas. A dictionary can contain items of different data types.
+
+my_dict = {"name": "Shubham", "age": 25, "is_active": True} # Dictionary variable
+print (my_dict["name"]) # Accessing the value of a key in the dictionary using the key
+print (my_dict["age"]) # Accessing the value of a key in the dictionary using the key
+print (my_dict["is_active"]) # Accessing the value of a key in the dictionary using the key    
+'''
+
+server = {
+    "name": "server1",
+    "ip": "192.168.1.10",
+    "status": "running"
+}
+
+print(server["ip"]) # Accessing the value of a key in the dictionary using the key
