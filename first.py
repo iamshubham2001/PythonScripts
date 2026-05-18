@@ -75,3 +75,45 @@ server = {
 }
 
 print(server["ip"]) # Accessing the value of a key in the dictionary using the key
+
+
+# tuples are used to store data in an ordered and unchangeable collection. A tuple is defined using parentheses () and items are separated by commas. A tuple can contain items of different data types.  
+
+'''
+my_tuple = (1, 2, 3, "Hello", True) # Tuple variable
+print (my_tuple[0]) # Accessing the value of an item in the tuple using its index
+print (my_tuple[1]) # Accessing the value of an item in the tuple using its index
+print (my_tuple[2]) # Accessing the value of an item in the tuple using its index
+print (my_tuple[3]) # Accessing the value of an item in the tuple using its index
+print (my_tuple[4]) # Accessing the value of an item in the tuple using its index
+'''
+
+'''
+difference between list and tuple:
+1. A list is mutable, which means that it can be changed after it is created. A tuple is immutable, which means that it cannot be changed after it is created.
+2. A list is defined using square brackets [], while a tuple is defined using parentheses ().
+3. A list can contain items of different data types, while a tuple can also contain items of different data types.      
+'''
+
+# conditions are used to perform different actions based on different conditions. The most common conditional statements in python are if, elif, and else. The if statement is used to test a condition and execute a block of code if the condition is true. The elif statement is used to test another condition if the previous condition is false. The else statement is used to execute a block of code if all the previous conditions are false.
+
+cpu = 75.5
+if cpu > 80:
+    print ("CPU usage is high")
+elif cpu > 50:
+    print ("CPU usage is moderate")
+else:
+    print ("CPU usage is low")
+
+
+# functions are used to perform a specific task. A function is defined using the def keyword followed by the function name and parentheses (). The code block within every function starts with a colon (:) and is indented. The return statement is used to exit a function and return a value.
+
+def check_cpu_usage(cpu):
+    if cpu > 80:
+        return "CPU usage is high"
+    elif cpu > 50:
+        return "CPU usage is moderate"
+    else:
+        return "CPU usage is low"
+print (check_cpu_usage(75.5)) # Calling the function and passing an argument to it
+

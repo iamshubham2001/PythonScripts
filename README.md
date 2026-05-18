@@ -41,3 +41,7 @@ Function - a block of code that performs a specific task and can be reused
 
 ## Snake case in Python
 
+## note:
+= -> assignment operator
+== -> equal to
+=== -> python me nhi hota

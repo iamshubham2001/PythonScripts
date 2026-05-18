@@ -46,3 +46,6 @@ print (f"Total warnings: {warnings_count}") # Using f-string to print the value 
 print (f"Total info: {info_count}") # Using f-string to print the value of the variable in a string
 
 
+
+
+
